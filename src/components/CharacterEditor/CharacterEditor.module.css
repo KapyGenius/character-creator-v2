@@ -6,6 +6,8 @@
 
 .maxWidthWrapper {
   max-width: 1024px;
+  position: relative;
+  isolation: isolate;
 }
 
 .header {
@@ -36,4 +38,22 @@
 
 .controlColumn {
   width: 50%;
+}
+
+@media (max-width: 800px) {
+  .header {
+    display: none;
+  }
+  .characterWrapper {
+    top: 5rem;
+    left: 0;
+    width: 90%;
+  }
+  .controlColumn {
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    gap: 16px;
+    padding-top: 40vh;
+  }
 }
