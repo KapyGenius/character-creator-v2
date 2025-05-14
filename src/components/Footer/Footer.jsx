@@ -10,7 +10,6 @@ const Footer = () => {
         href="https://www.openpeeps.com/"
         target="_blank"
         rel="noopener noreferrer"
-        className={styles.link}
       >
         Open Peeps
       </a>

@@ -1,18 +1,6 @@
 .perspective {
-    isolation: isolate;
     position: fixed;
     inset: 0;
-  }
-  
-  .perspectiveBackground {
-    position: absolute;
-    inset: 0;
-    background-color: hsl(180deg, 10%, 90%);
-  }
-  
-  .perspectiveForeground {
-    position: absolute;
-    inset: 0;
     top: 50%;
-    background-color: hsl(195deg, 20%, 86%);
-  }
+    background-color: hsl(195deg, 20%, 86%)
+}
