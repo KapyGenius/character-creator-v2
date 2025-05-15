@@ -33,7 +33,6 @@
   top: 15%;
   left: 60%;
   bottom: 5%;
-  /* width: 40%; */
   min-height: 500px;
 }
 
@@ -46,9 +45,8 @@
     display: none;
   }
   .characterWrapper {
-    top: 5rem;
-    left: 0;
-    width: 90%;
+    top: 5%;
+    left: 0%;
   }
   .controlColumn {
     width: 100%;
